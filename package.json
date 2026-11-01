@@ -1,0 +1,11 @@
+{
+  "name": "signal-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A fictional incident investigation workspace with a Python/SQLite API and a portable browser demo.",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/model.test.js && python3 -m unittest discover -s tests -p 'test_*.py'"
+  }
+}
